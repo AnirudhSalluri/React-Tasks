@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className='flex flex-col gap-4 mt-20 items-center justify-center'>
     {visibility&&<UserCard name={name} age={age} location={location} avatar={avatar} />}
-    <button onClick={()=>setVisibility(!visibility)} className='bg-green-600 text-xl '>User Visibilty Button</button>
+    <button onClick={()=>setVisibility(!visibility)} className='bg-green-600 text-xl text-white rounded-lg p-2'>User Visibilty Button</button>
     </div>
   )
 }
